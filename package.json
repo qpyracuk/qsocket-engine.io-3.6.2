@@ -1,0 +1,35 @@
+{
+  "name": "@QSocket/engine.io-legacy",
+  "version": "1.0.0",
+  "description": "A wrapper package for engine.io version 3.6.2, used for compatibility with the qsocket library.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/engine.io-legacy"  // Замените на реальный URL репозитория
+  },
+  "keywords": [
+    "engine.io",
+    "engine.io-legacy",
+    "qsocket",
+    "websocket",
+    "wrapper"
+  ],
+  "author": "Your Name <your.email@example.com>", // Замените на ваше имя и контакт
+  "license": "MIT",
+  "dependencies": {
+    "engine.io": "3.6.2"
+  },
+  "peerDependencies": {
+    "qsocket": "*" // Опционально: если ваш пакет предназначен для работы с qsocket, можно добавить peer-зависимость
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/engine.io-legacy/issues" // Замените на реальный URL
+  },
+  "homepage": "https://github.com/yourusername/engine.io-legacy#readme", // Замените на реальный URL
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  }
+}
